@@ -1,0 +1,2 @@
+# PrivatePractice
+.htaccess server setup
