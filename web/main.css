@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6e6ae;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style the header */
+
+header {
+    background-color: #edb5b8;
+    text-align: center;
+    padding: 20px;
+    max-height: 400px;
+    width: 100%;
+    font-size: 2rem;
+}
+
+
+/* Style the top navigation bar */
+
+.topnav {
+    background-color: #37455a;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Main Grid Template for pages */
+.container {
+    margin: auto;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* map */
+.map-content {
+    font-size: 1.5em;
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    max-width: 100%;
+}
+
+.map {
+    min-width: 40vw;
+    min-height: 40vw;
+}
+
+.contact-us {
+    margin: auto;
+    padding: 1.5em;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+
+.whakatauki {
+    background-color: white;
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.image-tauki {
+    max-width: 100%;
+}
+
+.what-about {
+    background-color: white;
+    max-width: 100%;
+    padding: 25px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 1vw;
+
+}
+
+.image-restaurant {
+    max-width: 100%;
+    margin: 25px;
+}
+
+.form {
+    width: 80vw;
+    min-height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: none;
+    font-size: 1.5em;
+}
+
+/* Menu */
+
+.menu-blurb {
+    width: 40vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    padding: 1em;
+    font-size: 2vw;
+}
+
+.menu-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    max-width: 60%;
+}
+
+.menu-price {
+    float: right;
+}
+
+.menu-meal {
+    max-width: 70%;
+}
+
+.image-menu {
+    width: 40vw;
+    max-width: 400px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.footer {
+    font-size: 1vw;
+    background-color: #37455a;
+    text-align: left;
+    padding: 10px;
+    max-height: 400px;
+    width: 100%;
+    padding: 60px;
+}
+
+.calendar {
+    min-width: 80vw;
+    min-height: 30rem;
+}
+
+.footer img {
+    max-height: 30px;
+    max-width: 30px;
+    text-align: right;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer h6 {
+    color: white;
+    font-size: 1rem;
+}
