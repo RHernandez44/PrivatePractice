@@ -1,6 +1,4 @@
-<Files .htpasswd>
-AuthName "Prompt"
 AuthType Basic
-AuthUserFile .htpasswd
+AuthName "Please enter Login Details"
+AuthUserFile /.htpasswd
 Require valid-user
-</Files>
