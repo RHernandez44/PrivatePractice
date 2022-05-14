@@ -152,6 +152,15 @@ header {
     overflow: hidden;
 }
 
+.privacy_statement {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    max-width: 60%;
+    background-color: white;
+}
+
 .footer {
     font-size: 1vw;
     background-color: #37455a;
