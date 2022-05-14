@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Please enter Login Details"
-AuthUserFile /app/www/.htpasswd
+AuthUserFile /www/.htpasswd
 Require valid-user
