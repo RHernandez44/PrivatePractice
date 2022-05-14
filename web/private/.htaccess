@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Please enter Login Details"
-AuthUserFile /.htpasswd
+AuthUserFile /var/www/stormy-reaches-23513.herokuapp.com/.htpasswd
 Require valid-user
