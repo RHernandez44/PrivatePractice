@@ -1,7 +1,0 @@
-AuthType Basic
-
-AuthName "Restricted access"
-
-AuthUserFile "/pass/.htpasswd"
-
-Require valid-user
