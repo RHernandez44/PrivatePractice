@@ -4,53 +4,65 @@
 <head>
     <meta charset="utf-8">
     <title>Haukai Restaurant - Staff Hours</title>
-    <link rel="stylesheet" href="../main.css">
     <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 </head>
 
 <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-    <header class="header">
-        <h1>Haukai Restaurant</h1>
-    </header>
-    <nav class="topnav">
-        <a href="../home.html" class="topnav">Home</a></li>
-        <a href="../menu.html" class="topnav">Menu</a></li>
-        <a href="../reservations.html" class="topnav">Reservations</a></li>
-        <a href="../contact.html" class="topnav">Contact</a></li>
-        <a href="../hours.html" class="topnav">Staff Hours</a></li>
-    </nav>
-
-    <div class="container">
-        <div class="map-content">
-            <h2>Staff Hours</h2>
-            <!-- Calendar Frame -->
-            <iframe class="calendar"
-                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&title=Haukai%20Restaurant%20Hours&src=M2kwYm5rdGl0b2wydmlpcWNydDE5cmg4czRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4ubmV3X3plYWxhbmQjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23D81B60&color=%230B8043"
-                scrolling="no"></iframe>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top w3-hide-small">
+        <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+            <a href="../home.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="private/private.html" class="w3-bar-item w3-button">Staff Roster</a>
         </div>
     </div>
-    <div class="privacy_statement" style="padding: 2rem;">
-        <h2>Staff Contact Details</h2>
-        <ul>
-            <li>Bar Manager - 0274864866</li>
-            <li>Kitchen Manager - 0274494494</li>
-            <li>Hydro Slide Manager - 0212112312</li>
-            <li>Restaurant Owner - 0800 GETTOWORK</li>
-        </ul>
+
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-bottomleft w3-padding">
+            <span class="w3-tag w3-xlarge">Open from 6am to 3pm</span>
+        </div>
+        <div class="w3-display-middle w3-center">
+            <span class="w3-text-white w3-hide-small" style="font-size:100px">Haukai<br>Restaurant</span>
+            <span class="w3-text-white w3-hide-large w3-hide-medium"
+                style="font-size:60px"><b>HAUKAI<br>Restaurant</b></span>
+        </div>
+    </header>
+
+    <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+        <div class="w3-content">
+            <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Staff Roster</h1>
+
+            <div class="calendar">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&title=Haukai%20Restaurant%20Hours&src=M2kwYm5rdGl0b2wydmlpcWNydDE5cmg4czRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4ubmV3X3plYWxhbmQjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23D81B60&color=%230B8043"
+                    scrolling="no"></iframe>
+            </div>
+
+            <div class="w3-xlarge">
+                <h2>Staff Contact Details</h2>
+                <ul>
+                    <li>Bar Manager - 0274864866</li>
+                    <li>Kitchen Manager - 0274494494</li>
+                    <li>Hydro Slide Manager - 0212112312</li>
+                    <li>Restaurant Owner - 0800 GETTOWORK</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <footer class="footer">
-        <h6 class="text-white">SOCIAL</h6>
-        <a href="https://www.instagram.com" target="_blank"><img
-                src="https://uploads-ssl.webflow.com/613d486f797490e3fb9a6e12/613d554aa86828ea6aa6b949_Social-Instagram.png"
-                alt="" class="social-image" /></a></div>
-        <a href="https://www.facebook.com" target="_blank"><img
-                src="https://uploads-ssl.webflow.com/613d486f797490e3fb9a6e12/613d554aa86828bdcba6b94b_Social-Facebook.png"
-                alt="" class="social-image" /></a>
-        <br><br>
-        <a href="../privacy.html">Privacy Statement</a>
+    <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+        <p><a href="private/private.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">Staff Roster</a>
+        </p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+        <p>Made by <a href="https://github.com/RHernandez44" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">Ryan Hanrahan</a></p>
     </footer>
+
 </body>
 
 </html>
