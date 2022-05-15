@@ -158,7 +158,13 @@ header {
     margin-top: 1rem;
     margin-bottom: 4rem;
     max-width: 60%;
+    padding: 2rem;
     background-color: white;
+}
+
+.calendar {
+    min-width: 80vw;
+    min-height: 30rem;
 }
 
 .footer {
@@ -171,10 +177,6 @@ header {
     padding: 60px;
 }
 
-.calendar {
-    min-width: 80vw;
-    min-height: 30rem;
-}
 
 .footer img {
     max-height: 30px;
