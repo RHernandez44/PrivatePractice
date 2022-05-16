@@ -1,5 +1,5 @@
 # PrivatePractice
-.htaccess server setup
+BIT607 Assignment 3 - 5029791
 
 https://rhernandez44.github.io/PrivatePractice/
 
